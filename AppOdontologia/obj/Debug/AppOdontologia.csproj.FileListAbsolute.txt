@@ -1,0 +1,10 @@
+C:\Users\Lex Sheikah\source\repos\AppOdontologia\AppOdontologia\bin\Debug\AppOdontologia.exe.config
+C:\Users\Lex Sheikah\source\repos\AppOdontologia\AppOdontologia\bin\Debug\AppOdontologia.exe
+C:\Users\Lex Sheikah\source\repos\AppOdontologia\AppOdontologia\bin\Debug\AppOdontologia.pdb
+C:\Users\Lex Sheikah\source\repos\AppOdontologia\AppOdontologia\obj\Debug\AppOdontologia.csprojAssemblyReference.cache
+C:\Users\Lex Sheikah\source\repos\AppOdontologia\AppOdontologia\obj\Debug\AppOdontologia.Form1.resources
+C:\Users\Lex Sheikah\source\repos\AppOdontologia\AppOdontologia\obj\Debug\AppOdontologia.Properties.Resources.resources
+C:\Users\Lex Sheikah\source\repos\AppOdontologia\AppOdontologia\obj\Debug\AppOdontologia.csproj.GenerateResource.cache
+C:\Users\Lex Sheikah\source\repos\AppOdontologia\AppOdontologia\obj\Debug\AppOdontologia.csproj.CoreCompileInputs.cache
+C:\Users\Lex Sheikah\source\repos\AppOdontologia\AppOdontologia\obj\Debug\AppOdontologia.exe
+C:\Users\Lex Sheikah\source\repos\AppOdontologia\AppOdontologia\obj\Debug\AppOdontologia.pdb
