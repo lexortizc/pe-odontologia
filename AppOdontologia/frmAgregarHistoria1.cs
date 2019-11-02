@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AppOdontologia
 {
-    public partial class MenuPrincipal : Form
+    public partial class frmAgregarHistoria1 : Form
     {
-        public MenuPrincipal()
+        public frmAgregarHistoria1()
         {
             InitializeComponent();
         }
