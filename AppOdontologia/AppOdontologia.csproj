@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conexion\SqlConexion.cs" />
     <Compile Include="frmAgregarHistoria1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,12 +171,20 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="resources\dienet2.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="resources\Logo1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\Logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\dienet3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\diente1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
