@@ -51,5 +51,26 @@ namespace AppOdontologia.Conexion
                     MessageBoxIcon.Error);
             }
         }
+
+        public void LlenarCombo(String sql, string id, string valor, ComboBox combo)
+        {
+            try
+            {
+                SqlDataAdapter da = new SqlDataAdapter(sql, conexion());
+                DataTable dt = new DataTable();
+
+                da.Fill(dt);
+                combo.DataSource = null;
+                combo.Items.Clear();
+                combo.DataSource = dt;
+                combo.DisplayMember = valor;
+                combo.ValueMember = id;
+                combo.Refresh();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error combo: " + e.ToString());
+            }
+        }
     }
 }

@@ -43,7 +43,7 @@ namespace AppOdontologia
             }
         }
 
-        private void abrirForm(Form frmNuevo)
+        public void abrirForm(Form frmNuevo)
         {
             if(frmActivo != null)
             {
@@ -96,7 +96,7 @@ namespace AppOdontologia
 
         private void BtnAgregarHistoria_Click(object sender, EventArgs e)
         {
-            abrirForm(new frmAgregarHistoria1());
+            abrirForm(new frmAgregarHistoria2());
         }
 
         private void BtnHistorial_Click(object sender, EventArgs e)

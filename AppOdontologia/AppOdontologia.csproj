@@ -46,6 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\DetalleDiente.cs" />
+    <Compile Include="Clases\Diente.cs" />
+    <Compile Include="Clases\Historia.cs" />
+    <Compile Include="Clases\Paciente.cs" />
+    <Compile Include="Clases\SecuenciaTratamiento.cs" />
     <Compile Include="Conexion\SqlConexion.cs" />
     <Compile Include="frmAgregarHistoria1.cs">
       <SubType>Form</SubType>
@@ -185,6 +190,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\diente1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resources\Odontodiagrama.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

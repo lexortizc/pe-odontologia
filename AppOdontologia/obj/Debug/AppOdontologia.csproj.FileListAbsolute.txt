@@ -37,3 +37,23 @@ C:\Users\nilym\Documents\Visual Studio 2017\Projects\AppOdontologia\AppOdontolog
 C:\Users\nilym\Documents\Visual Studio 2017\Projects\AppOdontologia\AppOdontologia\obj\Debug\AppOdontologia.csproj.GenerateResource.Cache
 C:\Users\nilym\Documents\Visual Studio 2017\Projects\AppOdontologia\AppOdontologia\obj\Debug\AppOdontologia.exe
 C:\Users\nilym\Documents\Visual Studio 2017\Projects\AppOdontologia\AppOdontologia\obj\Debug\AppOdontologia.pdb
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\bin\Debug\AppOdontologia.exe.config
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\bin\Debug\AppOdontologia.exe
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\bin\Debug\AppOdontologia.pdb
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\obj\Debug\AppOdontologia.csprojAssemblyReference.cache
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\obj\Debug\AppOdontologia.frmAgregarHistoria1.resources
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\obj\Debug\AppOdontologia.frmAgregarHistoria2.resources
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\obj\Debug\AppOdontologia.frmAgregarHistoria3.resources
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\obj\Debug\AppOdontologia.frmAgregarPaciente.resources
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\obj\Debug\AppOdontologia.frmArchivo.resources
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\obj\Debug\AppOdontologia.frmCreditos.resources
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\obj\Debug\AppOdontologia.frmEditarPaciente.resources
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\obj\Debug\AppOdontologia.frmHistorial.resources
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\obj\Debug\AppOdontologia.frmLogin.resources
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\obj\Debug\AppOdontologia.frmMenuPrincipal.resources
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\obj\Debug\AppOdontologia.frmReporte.resources
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\obj\Debug\AppOdontologia.Properties.Resources.resources
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\obj\Debug\AppOdontologia.csproj.GenerateResource.cache
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\obj\Debug\AppOdontologia.csproj.CoreCompileInputs.cache
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\obj\Debug\AppOdontologia.exe
+C:\Users\Lex Sheikah\source\repos\AppOdonto\AppOdontologia\obj\Debug\AppOdontologia.pdb
