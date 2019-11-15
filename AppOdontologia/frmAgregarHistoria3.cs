@@ -16,5 +16,26 @@ namespace AppOdontologia
         {
             InitializeComponent();
         }
+        #region DECLARACION DE VARIABLES
+        #endregion
+        #region METODOS GENERADOS
+        private void frmAgregarHistoria3_Load(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
+
+        #region METODOS PERSONALIZADOS
+        #endregion
+
+        private void btnSiguiente_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtAspecto_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

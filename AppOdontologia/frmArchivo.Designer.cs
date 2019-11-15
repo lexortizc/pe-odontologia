@@ -35,6 +35,7 @@
             this.dgvListaPaciente = new System.Windows.Forms.DataGridView();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaPaciente)).BeginInit();
             this.SuspendLayout();
             // 
@@ -107,7 +108,7 @@
             // 
             // btnEditar
             // 
-            this.btnEditar.Location = new System.Drawing.Point(408, 594);
+            this.btnEditar.Location = new System.Drawing.Point(517, 596);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(122, 33);
             this.btnEditar.TabIndex = 7;
@@ -117,7 +118,7 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(590, 596);
+            this.btnEliminar.Location = new System.Drawing.Point(706, 596);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(98, 31);
             this.btnEliminar.TabIndex = 8;
@@ -125,11 +126,22 @@
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
+            // btnVolver
+            // 
+            this.btnVolver.Location = new System.Drawing.Point(314, 596);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(122, 33);
+            this.btnVolver.TabIndex = 9;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
             // frmArchivo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(830, 690);
+            this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.dgvListaPaciente);
@@ -157,5 +169,6 @@
         private System.Windows.Forms.DataGridView dgvListaPaciente;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnVolver;
     }
 }
