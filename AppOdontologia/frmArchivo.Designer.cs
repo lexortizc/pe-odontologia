@@ -87,6 +87,7 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(138, 33);
             this.dateTimePicker1.TabIndex = 5;
             this.dateTimePicker1.Value = new System.DateTime(2019, 11, 12, 0, 0, 0, 0);
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // dgvListaPaciente
             // 

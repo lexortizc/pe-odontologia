@@ -35,7 +35,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.txtNombrePaciente = new System.Windows.Forms.TextBox();
             this.txtMotivo = new System.Windows.Forms.TextBox();
-            this.txtOtro = new System.Windows.Forms.TextBox();
+            this.txtEnfermedad = new System.Windows.Forms.TextBox();
             this.btnSiguiente = new System.Windows.Forms.Button();
             this.dgvNombre = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -103,12 +103,12 @@
             this.txtMotivo.Size = new System.Drawing.Size(454, 137);
             this.txtMotivo.TabIndex = 12;
             // 
-            // txtOtro
+            // txtEnfermedad
             // 
-            this.txtOtro.Location = new System.Drawing.Point(260, 510);
-            this.txtOtro.Name = "txtOtro";
-            this.txtOtro.Size = new System.Drawing.Size(454, 33);
-            this.txtOtro.TabIndex = 16;
+            this.txtEnfermedad.Location = new System.Drawing.Point(260, 510);
+            this.txtEnfermedad.Name = "txtEnfermedad";
+            this.txtEnfermedad.Size = new System.Drawing.Size(454, 33);
+            this.txtEnfermedad.TabIndex = 16;
             // 
             // btnSiguiente
             // 
@@ -129,7 +129,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvNombre.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvNombre.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvNombre.Location = new System.Drawing.Point(260, 128);
+            this.dgvNombre.Location = new System.Drawing.Point(260, 112);
             this.dgvNombre.MultiSelect = false;
             this.dgvNombre.Name = "dgvNombre";
             this.dgvNombre.ReadOnly = true;
@@ -167,7 +167,7 @@
             this.Controls.Add(this.dgvNombre);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnSiguiente);
-            this.Controls.Add(this.txtOtro);
+            this.Controls.Add(this.txtEnfermedad);
             this.Controls.Add(this.txtMotivo);
             this.Controls.Add(this.txtNombrePaciente);
             this.Controls.Add(this.label9);
@@ -197,7 +197,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtNombrePaciente;
         private System.Windows.Forms.TextBox txtMotivo;
-        private System.Windows.Forms.TextBox txtOtro;
+        private System.Windows.Forms.TextBox txtEnfermedad;
         private System.Windows.Forms.Button btnSiguiente;
         private System.Windows.Forms.DataGridView dgvNombre;
         private System.Windows.Forms.PictureBox pictureBox1;

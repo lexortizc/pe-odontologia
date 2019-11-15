@@ -62,6 +62,11 @@ namespace AppOdontologia
             this.Close();
         }
 
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void dgvListaPaciente_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
             if (dgvListaPaciente.RowCount > 0)

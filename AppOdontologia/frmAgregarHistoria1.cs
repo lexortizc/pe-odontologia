@@ -18,19 +18,31 @@ namespace AppOdontologia
         }
 
         #region DECLARACION DE VARIABLES
-        string nombre;
+        string nombre, obtenerId;
+        historia h = new historia();
         Conexion.SqlConexion con = new Conexion.SqlConexion();
+        int id;
         #endregion
         #region METODOS GENERADOS
         private void frmAgregarHistoria1_Load(object sender, EventArgs e)
         {
             mostrarPacientes();
+            h.idpaciente = id;
+            h.motivo = txtMotivo.Text;
+            h.enfermedad = txtEnfermedad.Text;
+            MessageBox.Show(h.idpaciente.ToString());
         }
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
+          
             frmAgregarHistoria3 h2 = new frmAgregarHistoria3();
-            h2.Show();
+             h2.Show();
+            
+
+
+
         }
+
         private void abrirSiguiente(Form formSiguiente)
         {
 
@@ -54,6 +66,12 @@ namespace AppOdontologia
         {
             nombre = "SELECT concat(nombre, ' ', apellido) as Paciente FROM tblPaciente where concat(nombre, ' ', apellido) like '%" + txtNombrePaciente.Text + "%'; ";
             con.LlenarGrid(nombre, dgvNombre);
+        }
+        public void idPaciente()
+        {
+            obtenerId = ("SELECT idPaciente FROM tblPaciente where concat(nombre, ' ', apellido) like '%" + txtNombrePaciente.Text + "%'; ");
+            con.Ejecutar(obtenerId);
+            id = int.Parse(obtenerId);
         }
         public void mostrarPacientes()
         {
