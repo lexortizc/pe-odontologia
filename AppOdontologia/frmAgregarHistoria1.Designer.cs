@@ -48,8 +48,8 @@
             this.rRestauracion = new System.Windows.Forms.RadioButton();
             this.btnSiguiente = new System.Windows.Forms.Button();
             this.dgvNombre = new System.Windows.Forms.DataGridView();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnBuscarNombre = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNombre)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -192,7 +192,6 @@
             this.rSangramiento.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.rSangramiento.Size = new System.Drawing.Size(232, 29);
             this.rSangramiento.TabIndex = 17;
-            this.rSangramiento.TabStop = true;
             this.rSangramiento.Text = "Sangramiento de encias";
             this.rSangramiento.UseVisualStyleBackColor = true;
             // 
@@ -204,7 +203,6 @@
             this.rRestauracion.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.rRestauracion.Size = new System.Drawing.Size(220, 29);
             this.rRestauracion.TabIndex = 18;
-            this.rRestauracion.TabStop = true;
             this.rRestauracion.Text = "Restauración protésica";
             this.rRestauracion.UseVisualStyleBackColor = true;
             // 
@@ -236,16 +234,6 @@
             this.dgvNombre.TabIndex = 21;
             this.dgvNombre.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNombre_CellContentClick);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::AppOdontologia.Properties.Resources.dienet3;
-            this.pictureBox1.Location = new System.Drawing.Point(70, 112);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(155, 126);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 20;
-            this.pictureBox1.TabStop = false;
-            // 
             // btnBuscarNombre
             // 
             this.btnBuscarNombre.Location = new System.Drawing.Point(628, 73);
@@ -255,6 +243,16 @@
             this.btnBuscarNombre.Text = "Buscar";
             this.btnBuscarNombre.UseVisualStyleBackColor = true;
             this.btnBuscarNombre.Click += new System.EventHandler(this.btnBuscarNombre_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::AppOdontologia.Properties.Resources.dienet3;
+            this.pictureBox1.Location = new System.Drawing.Point(70, 112);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(155, 126);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
             // 
             // frmAgregarHistoria1
             // 

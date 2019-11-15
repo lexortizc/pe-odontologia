@@ -46,8 +46,6 @@
             this.txtATM = new System.Windows.Forms.TextBox();
             this.txtOjeras = new System.Windows.Forms.TextBox();
             this.txtRegionTiroidea = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -196,22 +194,11 @@
             this.txtRegionTiroidea.Size = new System.Drawing.Size(357, 33);
             this.txtRegionTiroidea.TabIndex = 17;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::AppOdontologia.Properties.Resources.dienet2;
-            this.pictureBox1.Location = new System.Drawing.Point(559, 92);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(225, 225);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 18;
-            this.pictureBox1.TabStop = false;
-            // 
             // frmAgregarHistoria3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(830, 690);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtRegionTiroidea);
             this.Controls.Add(this.txtOjeras);
             this.Controls.Add(this.txtATM);
@@ -235,7 +222,6 @@
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "frmAgregarHistoria3";
             this.Text = "frmAgregarHistoria3";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -261,6 +247,5 @@
         private System.Windows.Forms.TextBox txtATM;
         private System.Windows.Forms.TextBox txtOjeras;
         private System.Windows.Forms.TextBox txtRegionTiroidea;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

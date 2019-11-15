@@ -78,7 +78,7 @@ namespace AppOdontologia
             {
                 if (MessageBox.Show("Desea eliminar el registro?  " + txtBucar.Text,  "Eliminar", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
-                    query = "DELETE FROM tblPaciente WHERE concat(nombre, ' ', apellido) = '" + txtBucar.Text + "';";
+                    query = "DELETE FROM tblPaciente, tblHistoria WHERE concat(nombre, ' ', apellido) = '" + txtBucar.Text + "';";
                     con.Ejecutar(query);
                     mostrarPacientes();
                     MessageBox.Show("Registro eliminado correctamente " , "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
