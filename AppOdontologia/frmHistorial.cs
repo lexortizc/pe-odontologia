@@ -16,5 +16,10 @@ namespace AppOdontologia
         {
             InitializeComponent();
         }
+
+        private void frmHistorial_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

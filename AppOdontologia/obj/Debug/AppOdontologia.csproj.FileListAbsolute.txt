@@ -37,3 +37,23 @@ C:\Users\nilym\Documents\Visual Studio 2017\Projects\AppOdontologia\AppOdontolog
 C:\Users\nilym\Documents\Visual Studio 2017\Projects\AppOdontologia\AppOdontologia\obj\Debug\AppOdontologia.csproj.GenerateResource.Cache
 C:\Users\nilym\Documents\Visual Studio 2017\Projects\AppOdontologia\AppOdontologia\obj\Debug\AppOdontologia.exe
 C:\Users\nilym\Documents\Visual Studio 2017\Projects\AppOdontologia\AppOdontologia\obj\Debug\AppOdontologia.pdb
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\bin\Debug\AppOdontologia.exe.config
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\bin\Debug\AppOdontologia.exe
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\bin\Debug\AppOdontologia.pdb
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\obj\Debug\AppOdontologia.csprojAssemblyReference.cache
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\obj\Debug\AppOdontologia.frmAgregarHistoria1.resources
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\obj\Debug\AppOdontologia.frmAgregarHistoria2.resources
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\obj\Debug\AppOdontologia.frmAgregarHistoria3.resources
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\obj\Debug\AppOdontologia.frmAgregarPaciente.resources
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\obj\Debug\AppOdontologia.frmArchivo.resources
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\obj\Debug\AppOdontologia.frmCreditos.resources
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\obj\Debug\AppOdontologia.frmEditarPaciente.resources
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\obj\Debug\AppOdontologia.frmHistorial.resources
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\obj\Debug\AppOdontologia.frmLogin.resources
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\obj\Debug\AppOdontologia.frmMenuPrincipal.resources
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\obj\Debug\AppOdontologia.frmReporte.resources
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\obj\Debug\AppOdontologia.Properties.Resources.resources
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\obj\Debug\AppOdontologia.csproj.GenerateResource.cache
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\obj\Debug\AppOdontologia.csproj.CoreCompileInputs.cache
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\obj\Debug\AppOdontologia.exe
+C:\Users\CAMPOS\Desktop\pe-odontologia\AppOdontologia\obj\Debug\AppOdontologia.pdb
