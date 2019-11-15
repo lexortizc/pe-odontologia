@@ -73,6 +73,16 @@ namespace AppOdontologia.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dienet2_1 {
+            get {
+                object obj = ResourceManager.GetObject("dienet2.1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dienet3 {
             get {
                 object obj = ResourceManager.GetObject("dienet3", resourceCulture);

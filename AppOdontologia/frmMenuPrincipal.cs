@@ -121,5 +121,10 @@ namespace AppOdontologia
             //login.ShowDialog();
             this.Close();
         }
+
+        private void panelContenido_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

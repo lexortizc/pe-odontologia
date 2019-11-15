@@ -30,7 +30,6 @@
         {
             this.lblHistorial = new System.Windows.Forms.Label();
             this.lblGuion = new System.Windows.Forms.Label();
-            this.dtpHistorial = new System.Windows.Forms.DateTimePicker();
             this.lblFiltro = new System.Windows.Forms.Label();
             this.cmbFiltro = new System.Windows.Forms.ComboBox();
             this.cmbOrden = new System.Windows.Forms.ComboBox();
@@ -38,11 +37,12 @@
             this.btnAplicar = new System.Windows.Forms.Button();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.btnBuscar = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvHistorial = new System.Windows.Forms.DataGridView();
             this.btnVer = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.lblFecha = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvHistorial)).BeginInit();
             this.SuspendLayout();
             // 
             // lblHistorial
@@ -66,15 +66,6 @@
             this.lblGuion.Size = new System.Drawing.Size(620, 25);
             this.lblGuion.TabIndex = 22;
             this.lblGuion.Text = "----------------------------------------------------------------------------";
-            // 
-            // dtpHistorial
-            // 
-            this.dtpHistorial.Enabled = false;
-            this.dtpHistorial.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpHistorial.Location = new System.Drawing.Point(559, 34);
-            this.dtpHistorial.Name = "dtpHistorial";
-            this.dtpHistorial.Size = new System.Drawing.Size(114, 33);
-            this.dtpHistorial.TabIndex = 23;
             // 
             // lblFiltro
             // 
@@ -136,17 +127,18 @@
             this.btnBuscar.TabIndex = 30;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
-            // dataGridView1
+            // dgvHistorial
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(58, 267);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(615, 316);
-            this.dataGridView1.TabIndex = 31;
+            this.dgvHistorial.AllowUserToAddRows = false;
+            this.dgvHistorial.AllowUserToDeleteRows = false;
+            this.dgvHistorial.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvHistorial.Location = new System.Drawing.Point(58, 267);
+            this.dgvHistorial.Name = "dgvHistorial";
+            this.dgvHistorial.ReadOnly = true;
+            this.dgvHistorial.Size = new System.Drawing.Size(615, 316);
+            this.dgvHistorial.TabIndex = 31;
             // 
             // btnVer
             // 
@@ -175,15 +167,24 @@
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             // 
+            // lblFecha
+            // 
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.Location = new System.Drawing.Point(576, 40);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(0, 25);
+            this.lblFecha.TabIndex = 35;
+            // 
             // frmHistorial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(830, 690);
+            this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.btnVer);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvHistorial);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.btnAplicar);
@@ -191,7 +192,6 @@
             this.Controls.Add(this.lblOrden);
             this.Controls.Add(this.cmbFiltro);
             this.Controls.Add(this.lblFiltro);
-            this.Controls.Add(this.dtpHistorial);
             this.Controls.Add(this.lblGuion);
             this.Controls.Add(this.lblHistorial);
             this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -200,7 +200,7 @@
             this.Name = "frmHistorial";
             this.Text = "frmHistorial";
             this.Load += new System.EventHandler(this.frmHistorial_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvHistorial)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -209,7 +209,6 @@
         #endregion
         private System.Windows.Forms.Label lblHistorial;
         private System.Windows.Forms.Label lblGuion;
-        private System.Windows.Forms.DateTimePicker dtpHistorial;
         private System.Windows.Forms.Label lblFiltro;
         private System.Windows.Forms.ComboBox cmbFiltro;
         private System.Windows.Forms.ComboBox cmbOrden;
@@ -217,9 +216,10 @@
         private System.Windows.Forms.Button btnAplicar;
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Button btnBuscar;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvHistorial;
         private System.Windows.Forms.Button btnVer;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Label lblFecha;
     }
 }
